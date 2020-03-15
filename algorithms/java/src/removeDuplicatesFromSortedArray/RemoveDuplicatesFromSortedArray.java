@@ -24,6 +24,8 @@ public class RemoveDuplicatesFromSortedArray {
 
     /**
      *
+     * Time complextiy : O(n)
+     *
      * in-place with O(1) extra memory
      *
      */
