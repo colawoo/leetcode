@@ -1,5 +1,6 @@
 # LeetCode
 
+## LeetCode Algorithm
 ### Easy Array
 
 | # | Title | Solution | Difficulty |
@@ -12,8 +13,11 @@
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./algorithms/java/src/plusOne/PlusOne.java)|Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./algorithms/java/src/mergeSortedArray/MergeSortedArray.java)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangle.java)|Easy|
-|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangle.java)|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangleII.java)|Easy|
 
 
+## LeetCode Database
 
-
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- |----------- |
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](./database/CombineTwoTables.sql)|Easy|
