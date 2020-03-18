@@ -11,5 +11,9 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./algorithms/java/src/maximumSubarray/MaximumSubarray.java)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./algorithms/java/src/plusOne/PlusOne.java)|Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./algorithms/java/src/mergeSortedArray/MergeSortedArray.java)|Easy|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangle.java)|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangle.java)|Easy|
+
+
 
 
