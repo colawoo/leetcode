@@ -93,4 +93,26 @@ public class MaximumSubarray {
 
         return sumMax;
     }
+
+
+    /**
+     * 动态规划
+     *
+     * 不用单独分配一块dp内存，仍然使用原数组
+     *
+     */
+    public int maxSubArrayM3(int[] nums) {
+
+        if (nums.length == 0)
+            throw new IllegalArgumentException("array nums is empty");
+
+        int sumMax = nums[0];
+        for (int i=1; i<nums.length; i++) {
+            nums[i] = Math.max(nums[i], nums[i] + nums[i-1]);
+            if (nums[i] > sumMax) sumMax = nums[i];
+        }
+
+        return sumMax;
+    }
+
 }
