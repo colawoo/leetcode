@@ -36,5 +36,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- |----------- |
-|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[MySQL](./shell/ValidPhoneNumbers.sh)|Easy|
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[Bash](./shell/ValidPhoneNumbers.sh)|Easy|
 
