@@ -23,5 +23,6 @@
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](./database/CombineTwoTables.sql)|Easy|
 |176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[MySQL](./database/SecondHighestSalary.sql)|Easy|
 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[MySQL](./database/EmployeesEarningMoreThanTheirManagers.sql)|Easy|
+|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[MySQL](./database/DuplicateEmails.sql)|Easy|
 
 
