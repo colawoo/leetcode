@@ -21,3 +21,6 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- |----------- |
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](./database/CombineTwoTables.sql)|Easy|
+|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[MySQL](./database/SecondHighestSalary.sql)|Easy|
+
+
