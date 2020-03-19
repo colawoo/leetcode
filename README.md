@@ -16,6 +16,8 @@
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./algorithms/java/src/pascalTriangle/PascalTriangleII.java)|Easy|
 
 
+
+
 ## LeetCode Database
 
 | # | Title | Solution | Difficulty |
@@ -27,4 +29,12 @@
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./database/CustomersWhoNeverOrder.sql)|Easy|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./database/RisingTemperature.sql)|Easy|
 
+
+
+
+## LeetCode Shell
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- |----------- |
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[MySQL](./shell/ValidPhoneNumbers.sh)|Easy|
 
