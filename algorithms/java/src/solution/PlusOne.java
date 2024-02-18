@@ -1,4 +1,4 @@
-package plusOne;
+package solution;
 
 /**
  * 66. Plus One

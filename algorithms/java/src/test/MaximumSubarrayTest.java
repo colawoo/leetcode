@@ -1,9 +1,10 @@
-package maximumSubarray;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.MaximumSubarray;
 
-public class TestMaximumSubarray {
+public class MaximumSubarrayTest {
 
 
     @Test

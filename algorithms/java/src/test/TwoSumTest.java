@@ -1,9 +1,10 @@
-package twoSum;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.TwoSum;
 
-public class TestTwoSum {
+public class TwoSumTest {
 
     @Test
     public void testTwoSum() {

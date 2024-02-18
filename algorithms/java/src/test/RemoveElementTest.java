@@ -1,9 +1,10 @@
-package removeElement;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.RemoveElement;
 
-public class TestRemoveElement {
+public class RemoveElementTest {
 
     @Test
     public void testRemoveElement() {

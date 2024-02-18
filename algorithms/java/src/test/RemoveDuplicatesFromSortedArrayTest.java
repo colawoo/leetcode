@@ -1,9 +1,10 @@
-package removeDuplicatesFromSortedArray;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.RemoveDuplicatesFromSortedArray;
 
-public class TestRemoveDuplicatesFromSortedArray {
+public class RemoveDuplicatesFromSortedArrayTest {
 
     @Test
     public void testRemoveDuplicatesFromSortedArray() {

@@ -1,4 +1,4 @@
-package searchInsertPosition;
+package solution;
 
 /**
  * 35. Search Insert Position

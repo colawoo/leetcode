@@ -1,4 +1,4 @@
-package removeElement;
+package solution;
 
 /**
  * 27. Remove Element

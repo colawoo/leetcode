@@ -1,9 +1,10 @@
-package searchInsertPosition;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.SearchInsertPosition;
 
-public class TestSearchInsertPosition {
+public class SearchInsertPositionTest {
 
     @Test
     public void testSearchInsert() {

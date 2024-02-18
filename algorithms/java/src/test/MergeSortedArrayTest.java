@@ -1,9 +1,10 @@
-package mergeSortedArray;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.MergeSortedArray;
 
-public class TestMergeSortedArray {
+public class MergeSortedArrayTest {
 
 
     @Test

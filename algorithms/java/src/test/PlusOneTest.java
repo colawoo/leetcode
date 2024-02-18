@@ -1,9 +1,10 @@
-package plusOne;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+import solution.PlusOne;
 
-public class TestPlusOne {
+public class PlusOneTest {
 
     @Test
     public void testPlusOne() {
