@@ -7,6 +7,7 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./algorithms/java/src/solution/TwoSum.java), [C++](./algorithms/cpp/twoSum/twoSum.cpp)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[Java](./algorithms/java/src/solution/PalindromeNumber.java)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[Java](./algorithms/java/src/solution/RomanToInteger.java)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Java](./algorithms/java/src/solution/LongestCommonPrefix.java)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./algorithms/java/src/solution/RemoveDuplicatesFromSortedArray.java), [C++](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./algorithms/java/src/solution/RemoveElement.java), [C++](./algorithms/cpp/removeElement/removeElement.cpp)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./algorithms/java/src/solution/SearchInsertPosition.java)|Easy|
