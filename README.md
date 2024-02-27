@@ -9,6 +9,7 @@
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[Java](./algorithms/java/src/solution/RomanToInteger.java)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[Java](./algorithms/java/src/solution/LongestCommonPrefix.java)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Java](./algorithms/java/src/solution/ValidParentheses.java)|Easy|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./algorithms/java/src/solution/MergeTwoSortedLists.java)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./algorithms/java/src/solution/RemoveDuplicatesFromSortedArray.java), [C++](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./algorithms/java/src/solution/RemoveElement.java), [C++](./algorithms/cpp/removeElement/removeElement.cpp)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./algorithms/java/src/solution/SearchInsertPosition.java)|Easy|
