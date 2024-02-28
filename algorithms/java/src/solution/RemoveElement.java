@@ -1,94 +1,111 @@
 package solution;
 
 /**
- * 27. Remove Element
+ * Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the
+ * elements may be changed. Then return the number of elements in nums which are not equal to val.
  *
- * Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+ * Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the
+ * following things:
  *
- * Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+ * - Change the array nums such that the first k elements of nums contain the elements which are not equal to val.
+ * The remaining elements of nums are not important as well as the size of nums.
+ * - Return k.
  *
- * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+ * Custom Judge:
+ *
+ * The judge will test your solution with the following code:
+ *
+ * int[] nums = [...]; // Input array
+ * int val = ...; // Value to remove
+ * int[] expectedNums = [...]; // The expected answer with correct length.
+ * // It is sorted with no values equaling val.
+ *
+ * int k = removeElement(nums, val); // Calls your implementation
+ *
+ * assert k == expectedNums.length;
+ * sort(nums, 0, k); // Sort the first k elements of nums
+ * for (int i = 0; i < actualLength; i++) {
+ * assert nums[i] == expectedNums[i];
+ * }
+ * If all assertions pass, then your solution will be accepted.
+ *
+ *
  *
  * Example 1:
+ * Input: nums = [3,2,2,3], val = 3
+ * Output: 2, nums = [2,2,_,_]
+ * Explanation: Your function should return k = 2, with the first two elements of nums being 2.
+ * It does not matter what you leave beyond the returned k (hence they are underscores).
  *
- * Given nums = [3,2,2,3], val = 3,
- *
- * Your function should return length = 2, with the first two elements of nums being 2.
- *
- * It doesn't matter what you leave beyond the returned length.
  * Example 2:
+ * Input: nums = [0,1,2,2,3,0,4,2], val = 2
+ * Output: 5, nums = [0,1,4,0,3,_,_,_]
+ * Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
+ * Note that the five elements can be returned in any order.
+ * It does not matter what you leave beyond the returned k (hence they are underscores).
  *
- * Given nums = [0,1,2,2,3,0,4,2], val = 2,
  *
- * Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4.
- *
- * Note that the order of those five elements can be arbitrary.
- *
- * It doesn't matter what values are set beyond the returned length.
+ * Constraints:
+ * 0 <= nums.length <= 100
+ * 0 <= nums[i] <= 50
+ * 0 <= val <= 100
  */
 public class RemoveElement {
 
-    public int removeElement(int[] nums, int val) {
-
-        for (int i=0; i<nums.length; i++) {
-            if (nums[i] ==val) {
-                for (int j=nums.length-1; j>-1; j--) {
-                    if (nums[j] != val && i < j) {
-                        nums[i] = nums[j];
-                        nums[j] = val;
-                        break;
-                    }
-                    if (i >= j) {
-                        return i;
-                    }
-                }
+    /**
+     * Soulution 1: Two Pointers (while loop)
+     * Time complexity : O(n)
+     * Space complexity : O(1)
+     */
+    public int solution1(int[] nums, int val) {
+        int n = nums.length;
+        if (n == 0) return 0;
+        int fast = 0, slow = 0;
+        while (fast < n) {
+            if (nums[fast] != val) {
+                nums[slow] = nums[fast];
+                slow++;
             }
+            fast++;
         }
-
-        return nums.length;
+        return slow;
     }
 
     /**
+     * Soulution 1: Two Pointers (for loop)
      * Time complexity : O(n)
-     *
      * Space complexity : O(1)
      */
-    public int removeElementM1(int[] nums, int val) {
-        if (nums.length == 0) return 0;
-
+    public int solution1_1(int[] nums, int val) {
+        int n = nums.length;
+        if (n == 0) return 0;
         int index = 0;
-        for (int i=0; i<nums.length; i++) {
+        for (int i = 0; i < n; i++) {
             if (nums[i] != val) {
-                nums[index++] = nums[i];
+                nums[index] = nums[i];
+                index++;
             }
         }
-
         return index;
     }
 
     /**
-     * Two Pointers - when elements to remove are rare
-     *
+     * Soulution 2: Two Pointers - when elements to remove are rare
      * Time complexity : O(n)
-     *
      * Space complexity : O(1)
      */
-    public int removeElementM2(int[] nums, int val) {
-        if (nums.length == 0) return 0;
-
-        int i = 0;
+    public int solution2(int[] nums, int val) {
         int n = nums.length;
+        if (n == 0) return 0;
+        int i = 0;
         while (i < n) {
             if (nums[i] == val) {
-                nums[i] = nums[n-1];
+                nums[i] = nums[n - 1];
                 n--;
-            }
-            else {
+            } else {
                 i++;
             }
         }
-
         return n;
     }
-
 }
