@@ -12,6 +12,7 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Java](./algorithms/java/src/solution/MergeTwoSortedLists.java)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./algorithms/java/src/solution/RemoveDuplicatesFromSortedArray.java), [C++](./algorithms/cpp/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./algorithms/java/src/solution/RemoveElement.java), [C++](./algorithms/cpp/removeElement/removeElement.cpp)|Easy|
+|28|[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)|[Java](./algorithms/java/src/solution/FindTheIndexOfTheFirstOccurrenceInAString.java)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./algorithms/java/src/solution/SearchInsertPosition.java)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./algorithms/java/src/solution/MaximumSubarray.java)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./algorithms/java/src/solution/PlusOne.java)|Easy|
