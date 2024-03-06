@@ -8,25 +8,12 @@ public class SearchInsertPositionTest {
 
     @Test
     public void testSearchInsert() {
-
-        int[] nums = {1,3,5,6};
-        int target = 5;
-
         SearchInsertPosition s = new SearchInsertPosition();
-        int i = s.searchInsert(nums, target);
-        Assert.assertEquals(2, i);
-
-    }
-
-    @Test
-    public void testSearchInsertE1() {
-
-        int[] nums = {1,3,5,6};
-        int target = 2;
-
-        SearchInsertPosition s = new SearchInsertPosition();
-        int i = s.searchInsert(nums, target);
-        Assert.assertEquals(1, i);
-
+        int ans1 = s.searchInsert(new int[]{1, 3, 5, 6}, 5);
+        Assert.assertEquals(2, ans1);
+        int ans2 = s.searchInsert(new int[]{1, 3, 5, 6}, 2);
+        Assert.assertEquals(1, ans2);
+        int ans3 = s.searchInsert(new int[]{1, 3, 5, 6}, 7);
+        Assert.assertEquals(4, ans3);
     }
 }
