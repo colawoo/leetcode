@@ -3,81 +3,61 @@ package solution;
 /**
  * 66. Plus One
  *
- * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+ * You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the
+ * integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer
+ * does not contain any leading 0's.
  *
- * The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
- *
- * You may assume the integer does not contain any leading zero, except the number 0 itself.
+ * Increment the large integer by one and return the resulting array of digits.
  *
  * Example 1:
  *
- * Input: [1,2,3]
+ * Input: digits = [1,2,3]
  * Output: [1,2,4]
  * Explanation: The array represents the integer 123.
+ * Incrementing by one gives 123 + 1 = 124.
+ * Thus, the result should be [1,2,4].
+ *
  * Example 2:
  *
- * Input: [4,3,2,1]
+ * Input: digits = [4,3,2,1]
  * Output: [4,3,2,2]
  * Explanation: The array represents the integer 4321.
+ * Incrementing by one gives 4321 + 1 = 4322.
+ * Thus, the result should be [4,3,2,2].
+ *
+ * Example 3:
+ *
+ * Input: digits = [9]
+ * Output: [1,0]
+ * Explanation: The array represents the integer 9.
+ * Incrementing by one gives 9 + 1 = 10.
+ * Thus, the result should be [1,0].
+ *
+ *
+ * Constraints:
+ *
+ * 1 <= digits.length <= 100
+ * 0 <= digits[i] <= 9
+ * digits does not contain any leading 0's.
  */
 public class PlusOne {
 
-
     /**
-     *
-     * 时间：O(n)
-     * 空间：O(1)
+     * Solution 1
+     * Time complexity : O(n)
+     * Space complexity : O(1)
      */
     public int[] plusOne(int[] digits) {
-
-        boolean flag = true;
-        for (int i=digits.length-1; i>=0; i--) {
-
-            if (flag) {
-                digits[i]++;
-            }
-
-            if (digits[i]/10 > 0) {
-                flag = true;
-                digits[i] = digits[i] % 10;
-            }
-            else {
-                flag = false;
-                break;
-            }
-        }
-
-        if (flag) {
-            int[] copy = new int[digits.length + 1];
-            copy[0] = 1;
-            System.arraycopy(digits, 0, copy, 1, digits.length);
-            return copy;
-        }
-
-        return digits;
-    }
-
-    /**
-     *
-     * 时间：O(n)
-     * 空间：O(1)
-     */
-    public int[] plusOneM1(int[] digits) {
-
-        for (int i=digits.length-1; i>=0; i--) {
-
-            if (digits[i] != 9) {
+        int n = digits.length;
+        for (int i = n - 1; i >= 0; i--) {
+            if (digits[i] < 9) {
                 digits[i]++;
                 return digits;
             }
-            else {
-                digits[i] = 0;
-            }
+            digits[i] = 0;
         }
-
-        int[] copy = new int[digits.length + 1];
-        copy[0] = 1;
-        return copy;
+        int[] newArr = new int[n + 1];
+        newArr[0] = 1;
+        return newArr;
     }
-
 }
