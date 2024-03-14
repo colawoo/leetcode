@@ -18,6 +18,7 @@
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./algorithms/java/src/Lc58_LengthOfLastWord/LengthOfLastWord.java)|Easy|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](./algorithms/java/src/Lc66_PlusOne/PlusOne.java)|Easy|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./algorithms/java/src/Lc67_AddBinary/AddBinary.java)|Easy|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](./algorithms/java/src/Lc69_Sqrtx/Sqrtx.java)|Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./algorithms/java/src/Lc88_MergeSortedArray/MergeSortedArray.java)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/java/src/Lc118_PascalTriangle/PascalTriangle.java)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](./algorithms/java/src/Lc119_PascalTriangleII/PascalTriangleII.java)|Easy|
