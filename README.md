@@ -45,5 +45,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- |----------- |
-|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[Bash](./shell/ValidPhoneNumbers.sh)|Easy|
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[Bash](./shell/193.ValidPhoneNumbers.sh)|Easy|
 
