@@ -31,12 +31,12 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- |----------- |
-|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](./database/CombineTwoTables.sql)|Easy|
-|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[MySQL](./database/SecondHighestSalary.sql)|Easy|
-|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[MySQL](./database/EmployeesEarningMoreThanTheirManagers.sql)|Easy|
-|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[MySQL](./database/DuplicateEmails.sql)|Easy|
-|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./database/CustomersWhoNeverOrder.sql)|Easy|
-|197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./database/RisingTemperature.sql)|Easy|
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[MySQL](./database/175.CombineTwoTables.sql)|Easy|
+|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[MySQL](./database/176.SecondHighestSalary.sql)|Medium|
+|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[MySQL](./database/181.EmployeesEarningMoreThanTheirManagers.sql)|Easy|
+|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[MySQL](./database/182.DuplicateEmails.sql)|Easy|
+|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./database/183.CustomersWhoNeverOrder.sql)|Easy|
+|197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./database/197.RisingTemperature.sql)|Easy|
 
 
 
