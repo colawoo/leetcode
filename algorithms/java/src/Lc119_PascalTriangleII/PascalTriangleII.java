@@ -6,56 +6,46 @@ import java.util.List;
 /**
  * 119. Pascal's Triangle II
  *
- * Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
+ * Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
  *
- * Note that the row index starts from 0.
+ * In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
  *
- * In Pascal's triangle, each number is the sum of the two numbers directly above it.
+ * Example 1:
  *
- * Example:
- *
- * Input: 3
+ * Input: rowIndex = 3
  * Output: [1,3,3,1]
- * Follow up:
  *
- * Could you optimize your algorithm to use only O(k) extra space?
+ * Example 2:
+ *
+ * Input: rowIndex = 0
+ * Output: [1]
+ *
+ * Example 3:
+ *
+ * Input: rowIndex = 1
+ * Output: [1,1]
+ *
+ *
+ * Constraints:
+ *
+ * 0 <= rowIndex <= 33
  */
 public class PascalTriangleII {
 
-
-    public static List<Integer> getRow(int rowIndex) {
-
-        List<Integer> result = new ArrayList<>(rowIndex + 1);
-        result.add(0, 1);
-        for (int i = 1; i < rowIndex + 1; i++) {
-            result.add(i, 0);
-        }
-
-        for (int i = 0; i < rowIndex; i++) {
-            for (int j = i + 1; j > 0; j--) {
-                result.set(j, result.get(j) + result.get(j - 1));
+    /**
+     * Solution 1
+     * Time complexity : O(rowIndex^2)
+     * Space complexity : O(1)
+     */
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> ans = new ArrayList<>(rowIndex + 1);
+        ans.add(1);
+        for (int i = 1; i <= rowIndex; i++) {
+            ans.add(0);
+            for (int j = i; j > 0; j--) {
+                ans.set(j, ans.get(j) + ans.get(j - 1));
             }
         }
-
-        return result;
+        return ans;
     }
-
-    public static void main(String[] args) {
-
-        int rowIndex = 3;
-        int size = rowIndex + 1;
-
-        List<Integer> list = getRow(rowIndex);
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
-        for (int i = 0; i < size; i++) {
-            sb.append(list.get(i));
-            if (i < size - 1) {
-                sb.append(", ");
-            }
-        }
-        sb.append("]");
-        System.out.println(sb.toString());
-    }
-
 }
