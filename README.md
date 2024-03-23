@@ -45,6 +45,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- |----------- |
+|192|[Word Frequency](https://leetcode.com/problems/word-frequency/)|[Bash](./shell/192.WordFrequency.sh)|Medium|
 |193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/)|[Bash](./shell/193.ValidPhoneNumbers.sh)|Easy|
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./shell/195.TenthLine.sh)|Easy|
 
