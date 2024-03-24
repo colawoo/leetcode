@@ -36,6 +36,7 @@
 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[MySQL](./database/181.EmployeesEarningMoreThanTheirManagers.sql)|Easy|
 |182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[MySQL](./database/182.DuplicateEmails.sql)|Easy|
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./database/183.CustomersWhoNeverOrder.sql)|Easy|
+|196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[MySQL](./database/196.DeleteDuplicateEmails.sql)|Easy|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./database/197.RisingTemperature.sql)|Easy|
 
 
