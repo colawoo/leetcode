@@ -38,6 +38,7 @@
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./database/183.CustomersWhoNeverOrder.sql)|Easy|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[MySQL](./database/196.DeleteDuplicateEmails.sql)|Easy|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./database/197.RisingTemperature.sql)|Easy|
+|511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|[MySQL](./database/511.GamePlayAnalysisI.sql)|Easy|
 |2356|[Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/)|[MySQL](./database/2356.NumberOfUniqueSubjectsTaughtByEachTeacher.sql)|Easy|
 
 
